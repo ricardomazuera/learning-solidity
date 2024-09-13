@@ -6,3 +6,6 @@ In this repo I will be documenting my journey learning Solidity. I will be using
 ## Table of Contents
 1. Solidity Smart Contract Development
     It directory contains the code and notes for the Cyfrin Updraft course on [Solidity Smart Contract Development](https://updraft.cyfrin.io/courses/solidity).
+    - SimpleStorage.sol contains the code for the SimpleStorage smart contract.
+    - StorageFactory.sol contains the code that shows how to deploy the SimpleStorage contract using the StorageFactory contract using imports.
+    - AddFiveStorage.sol contains the code that shows how to use inheritance to modify store function in the SimpleStorage contract, adding 5 to the value being stored.

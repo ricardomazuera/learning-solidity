@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: MIT
-pragma solidity 0.8.19; // solidity version
+pragma solidity 0.8.24; // solidity version
 
 // here we creating a contract
 contract SimpleStorage {
@@ -55,14 +55,14 @@ contract SimpleStorage {
     mapping (string => uint256) public nameToFavoriteNumber;
 
     // we'll create to new function
-    function store(uint256 _favoriteNumber) public {
+    function store(uint256 _favoriteNumber) public virtual {
         myFavoriteNumber = _favoriteNumber;
     }
 
     // view, pure
     // solidity have these two words when we only going to
     // read the state of the blockchain and don't write in this
-    function retrieveFavoriteNumber() public view returns(uint256){
+    function retrieve() public view returns(uint256){
         return myFavoriteNumber;
     }
 
