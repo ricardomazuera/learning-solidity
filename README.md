@@ -9,3 +9,6 @@ In this repo I will be documenting my journey learning Solidity. I will be using
     - SimpleStorage.sol contains the code for the SimpleStorage smart contract.
     - StorageFactory.sol contains the code that shows how to deploy the SimpleStorage contract using the StorageFactory contract using imports.
     - AddFiveStorage.sol contains the code that shows how to use inheritance to modify store function in the SimpleStorage contract, adding 5 to the value being stored.
+    - FundMe directory
+        - FundMe.sol contains the code for the FundMe smart contract.
+        - PriceConverter.sol contains the library code for converting the price of Ether to USD.
